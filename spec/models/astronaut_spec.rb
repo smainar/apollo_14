@@ -21,9 +21,9 @@ describe Astronaut, type: :model do
       @astronauts = Astronaut.all
     end
 
-    it ".average_age"
-
-    expect(@astronauts.average_age).to eq(35)
+    it ".average_age" do
+      expect(@astronauts.average_age).to eq(35)
+    end
   end
 
 end
